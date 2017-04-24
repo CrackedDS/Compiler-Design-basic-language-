@@ -6,7 +6,7 @@ LEXICAL STRUCTURE OF THE LANGUAGE:
 
 comment ::=   /*   NOT(*/)*  */
 token ::= ident  | keyword | frame_op_keyword | filter_op_keyword | image_op_keyword | boolean_literal
- 	| int_literal  | separator  | operator
+ 	| int_literal  | separator  | operator 
 ident ::= ident_start  ident_part*    (but not reserved)
 ident_start ::=  A .. Z | a .. z | $ | _
 ident_part ::= ident_start | ( 0 .. 9 )
